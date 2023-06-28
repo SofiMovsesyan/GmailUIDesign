@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="30dp"
+        android:elevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="60dp"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp">
+
+            <ImageView
+                android:layout_marginTop="25dp"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="3dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/google_logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Sign In"
+                android:textSize="22sp"
+                android:layout_marginBottom="7dp"
+                android:fontFamily="@font/noto_sans_myanmar_regular"
+                android:textColor="#202124"
+                android:layout_gravity="center" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="to continue to Google"
+                android:textSize="15sp"
+                android:fontFamily="@font/noto_sans_myanmar_regular"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#202124"
+                android:layout_marginBottom="27dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:padding="14dp"
+                android:hint="Email or phone"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                android:fontFamily="@font/roboto_regular"
+                android:textColorHint="#888888"
+                android:background="@drawable/edittext_background" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot email?"
+                android:textColor="#1a73e8"
+                android:textSize="13sp"
+                android:layout_marginBottom="37dp"
+                android:fontFamily="@font/noto_sans_myanmar_medium"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textColor="#5f6368"
+                android:textSize="13sp"
+                android:fontFamily="@font/noto_sans_myanmar_regular"
+
+                android:text="Not your computer? Use Guest mode to sign in privately." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Learn more"
+                android:textColor="#1a73e8"
+                android:textSize="13sp"
+                android:layout_marginBottom="35dp"
+                android:fontFamily="@font/noto_sans_myanmar_medium"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Create Account"
+                    android:textColor="#1a73e8"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/noto_sans_myanmar_medium"/>
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="105dp"
+                    android:background="@drawable/button_background"
+                    android:fontFamily="@font/noto_sans_myanmar_semi_bold"
+                    android:text="Next"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
