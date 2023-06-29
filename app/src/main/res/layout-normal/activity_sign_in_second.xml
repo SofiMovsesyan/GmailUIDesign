@@ -53,6 +53,7 @@
                     android:contentDescription="Account Image"/>
 
                 <TextView
+                    android:id="@+id/userEmailValue"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Username"
@@ -72,6 +73,8 @@
 
                 android:text="To continue, first verify that it's you" />
             <EditText
+                android:id="@+id/pass"
+
                 android:layout_marginTop="50dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -113,12 +116,13 @@
 
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/next2"
                     android:layout_width="wrap_content"
                     android:layout_height="35dp"
                     android:background="@drawable/button_background"
                     android:text="Next"
                     android:textColor="#FFFFFF"
-                    android:layout_marginStart="150dp"
+                    android:layout_marginStart="130dp"
                     android:textSize="14sp"
                     android:textStyle="bold"
                     android:fontFamily="@font/noto_sans_myanmar_semi_bold" />

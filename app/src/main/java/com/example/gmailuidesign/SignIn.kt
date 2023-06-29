@@ -14,15 +14,19 @@ class SignIn : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_in)
         next = findViewById(R.id.next);
-
+        userEmail = findViewById(R.id.userEmail)
 
         next.setOnClickListener {
-            // Create an Intent to start the new activity
-            val intent = Intent(this, SignInSecond::class.java)
+            val userEmailValue: String = userEmail.text.toString()
 
-            // Start the new activity
-            startActivity(intent)
+
+            val intent = Intent(this, SignInSecond::class.java)
+                intent.putExtra("userEmailValue", userEmailValue)
+                // Start the new activity
+                startActivity(intent)
+
         }
     }
+
 }
 

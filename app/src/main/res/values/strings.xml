@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">GmailUIDesign</string>
+    <string name="title_activity_inbox">Inbox</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string-array name="first">
+        <item>Google</item>
+        <item>LinkedIn</item>
+        <item>Firebase</item>
+        <item>Stack Overflow</item>
+    </string-array>
+    <string-array name="second">
+        <item>Security alert - A new sign in...</item>
+        <item>"software engineer": 5 opportunities</item>
+        <item>[Firebase] Your Realtime Database...</item>
+        <item>Stay connected to knowledge you need</item>
+    </string-array>
+    <string-array name="dates">
+        <item>June 1, 2023</item>
+        <item>June 2, 2023</item>
+        <item>June 3, 2023</item>
+        <item>June 4, 2023</item>
+    </string-array>
 </resources>
